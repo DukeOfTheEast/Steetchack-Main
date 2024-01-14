@@ -1,13 +1,9 @@
-import "./App.css";
-import Logo from "../src/images/steet-logo.png";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
     <>
-      <div className="flex justify-between bg-navDark md:px-20 py-3 px-6">
-        <img src={Logo} alt="" />
-        <button className="md:hidden text-3xl text-white">&#9776;</button>
-      </div>
+      <Navbar />
     </>
   );
 }

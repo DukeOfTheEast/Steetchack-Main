@@ -11,6 +11,7 @@ export default {
     extend: {
       colors: {
         navDark: "rgba(43, 43, 41, 1)",
+        navBrown: "#B18E72",
       },
     },
   },
